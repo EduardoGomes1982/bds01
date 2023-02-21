@@ -15,6 +15,10 @@ public class EmployeeDTO implements Serializable {
 	public EmployeeDTO() {
 	}
 
+	public EmployeeDTO(Long id) {
+		this.id = id;
+	}
+
 	public EmployeeDTO(Long id, String name, String email, Long departmentId) {
 		this.id = id;
 		this.name = name;
